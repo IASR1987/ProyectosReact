@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+SORIA_RIVERO_ISMAEL_ÁNGEL_DESARROLLO_DE_INTERFACES_CLICKER.zip filter=lfs diff=lfs merge=lfs -text
