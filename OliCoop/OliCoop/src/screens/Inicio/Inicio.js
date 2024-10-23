@@ -25,7 +25,7 @@ export default function Main({ navigation }) {
                   style={styles.input}
                   placeholder="Indica tu contraseña"
               />
-              <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Menú Inicial')}>
+              <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Menú Principal')}>
                           <Text style={styles.textoBoton}>INICIAR SESIÓN</Text>
               </TouchableOpacity>
               <Pressable onPress={() => navigation.navigate('Menú Inicial')}>
