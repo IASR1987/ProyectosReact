@@ -1,6 +1,7 @@
 import { TouchableOpacity, SafeAreaView, Text, View, Image } from "react-native";
 import styles from './style.js';
 
+
 const HorizontalLine = () => {
     return <View style={styles.line} />;
 };
@@ -17,9 +18,9 @@ export default function MenuPrincipal({navigation}) {
             <View style={styles.imageContenedor}>
                 <View style={styles.row}>
                     <View style={styles.celda}>
-                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Camapña')}>
+                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Campaña')}>
                             <Image
-                            source={require('../../../assets/imagenes/aceituna.jpg')} // URL de tu imagen
+                            source={require('../../../assets/imagenes/aceituna.png')} // URL de tu imagen
                             style={styles.image}
                             />
                             <HorizontalLine />
@@ -27,9 +28,9 @@ export default function MenuPrincipal({navigation}) {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.celda}>
-                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Campaña')}>
+                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Cuaderno')}>
                             <Image
-                            source={require('../../../assets/imagenes/cuaderno.jpg')} // URL de tu imagen
+                            source={require('../../../assets/imagenes/cuaderno.png')} // URL de tu imagen
                             style={styles.image2}
                             />
                             <HorizontalLine />
@@ -40,9 +41,9 @@ export default function MenuPrincipal({navigation}) {
                 </View>
                 <View style={styles.row}>
                     <View style={styles.celda}>
-                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Camapña')}>
+                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Contabilidad')}>
                             <Image
-                            source={require('../../../assets/imagenes/contabilidad.jpg')} // URL de tu imagen
+                            source={require('../../../assets/imagenes/contabilidad.png')} // URL de tu imagen
                             style={styles.image}
                             />
                             <HorizontalLine />
@@ -50,9 +51,9 @@ export default function MenuPrincipal({navigation}) {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.celda}>
-                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Camapña')}>
+                        <TouchableOpacity style={styles.boton} onPress={() => navigation.navigate('Documentación')}>
                             <Image
-                            source={require('../../../assets/imagenes/documentación.jpg')} // URL de tu imagen
+                            source={require('../../../assets/imagenes/documentación.png')} // URL de tu imagen
                             style={styles.image2}
                             />
                             <HorizontalLine />

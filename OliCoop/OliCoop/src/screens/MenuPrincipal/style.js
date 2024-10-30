@@ -32,16 +32,14 @@ const styles = StyleSheet.create({
       width: 120,
       height: 120,
       alignSelf: 'center',
-      borderRadius: 10,    // Esquinas redondeadas (opcional)
     },
     image2: {
       width: 145,
       height: 120,
       alignSelf: 'center',
-      borderRadius: 10, 
     },
     textoBoton: {
-      fontSize: 15,
+      fontSize: 20,
       alignSelf:'flex-start',
       fontWeight: 'bold'
     }
